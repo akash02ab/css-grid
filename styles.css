@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Karla", sans-serif;
+	background-color: hsl(204, 43%, 93%);
+}
+
+.top {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0 -5px 5px -5px #333, -5px 0 5px -5px #333, 5px 0 5px -5px #333;
+	width: 600px;
+	gap: 20px;
+	padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.top h1 {
+	color: hsl(179, 62%, 43%);
+}
+
+.top h3 {
+	color: hsl(71, 73%, 54%);
+}
+
+.top p {
+	color: #b3b7c0;
+}
+
+.bottom {
+	display: flex;
+}
+
+.bottom-left {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	border-bottom-left-radius: 10px;
+	box-shadow: -5px 5px 5px -5px #333;
+	width: 300px;
+	gap: 10px;
+	padding: 20px;
+	background-color: hsl(179, 62%, 43%);
+	color: white;
+}
+
+.dollar {
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.signUp-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.signUp-btn button {
+	background-color: hsl(71, 73%, 54%);
+	width: 190px;
+	height: 40px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.bottom-right {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid transparent;
+	border-bottom-right-radius: 10px;
+	box-shadow: 5px 5px 5px -5px #333;
+	width: 300px;
+	gap: 10px;
+	padding: 20px;
+	background-color: #4abebd;
+	color: white;
+}
+
+.bottom-right h3 {
+	font-weight: 700;
+}
+
+.bottom-right p {
+	font-weight: 100;
+	color: #c0edf0;
+}
