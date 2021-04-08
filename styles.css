@@ -11,6 +11,7 @@ body{
 	justify-content: center;
 	font-family: "Karla", sans-serif;
 	height: 100vh;
+	background-color: #E6EFF6;
 }
 
 .container {
@@ -26,7 +27,7 @@ body{
 	border: 1px solid transparent;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	box-shadow: 1px 0px 8px 1px grey;
+	box-shadow: 1px 0px 4px 1px rgb(199, 195, 195);
 	gap: 20px;
 	padding: 30px;
     background-color: #FFFFFF;
